@@ -3,14 +3,19 @@ name = "BongoDev"
 for character in name:
     character = character + 'a'
     print(character)
-    
 
+# Each value itrate
 number_list = [1, 2, 3, 45, 34, 34, 23, 123, 123, 4]
+for number in number_list:
+    print(number)
+# Sum
+number_list = [1, 2, 3, 45, 34, 34, 23, 123, 123, 4]
+
 sum = 0
 
 for n in number_list:
     sum = sum + n
-    
+
 print(sum)
 
 # range(start, stop, step)
