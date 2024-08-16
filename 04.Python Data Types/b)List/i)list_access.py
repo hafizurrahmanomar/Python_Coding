@@ -8,19 +8,16 @@
 list_intro=[""] #main condition before list
 print(type(list_intro))
 
-#print(dir(list_intro))
-#Methods of List
-# 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
-
 myList=["python",10,10.5,True]
 print(myList)
 print(type(myList))
 
 #The list() Constructor
 
-fruits =list(("apple", "banana", "mango","orange","melon")) # note the double round-brackets
-print(type(fruits))
+fruits_list =list(("apple", "banana", "mango","orange","melon")) # note the double round-brackets
+print(type(fruits_list))
 
+fruits = ["apple", "banana", "mango","orange","melon"]
 #Access List Items
 print(fruits[0])
 print(fruits[1])
@@ -31,8 +28,5 @@ print(fruits[:])
 print(fruits[:-2])
 print(fruits[-2:])
 
-#Change Item Value
-fruits[0] = "nut"
-print(fruits)
-print(fruits)
+
 
