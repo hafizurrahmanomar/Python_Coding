@@ -1,4 +1,4 @@
-from distutils.core import setup
+from distutils.core import setup # type: ignore
 
 setup(
     name='Python_Coding',
