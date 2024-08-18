@@ -67,6 +67,6 @@ print(list(result))
 # print(result)
 
 num = [1,2,3,4,5,6,7,8,9,10,11,12,14,15,13]
-obj  = filter(lambda x: x>3 and x<10, num)
+obj  = filter(lambda x: 3 < x < 10, num)
 result = list(obj)
 print(result)
