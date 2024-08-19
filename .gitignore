@@ -1,9 +1,3 @@
-My Name is Hafizur Rahman Omar
-I'm Bangladeshi
-Python Master Class
-Django Master Class
-
-/*
 # Environments
 .env
 .venv
@@ -17,4 +11,3 @@ venv/
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
-*/

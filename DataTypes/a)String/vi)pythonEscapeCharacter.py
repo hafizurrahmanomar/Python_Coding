@@ -8,7 +8,7 @@ print("Hafizur Rahman\\Age:36")
 print("Backspace create in python,delete value")
 print("'n' litter delete")
 print("Hafizur Rahman\bAge:36")
-print("'ahman' litter delete")
+print("'Rahman' litter delete")
 print("Hafizur Rahman\b\b\b\b\bAge:36")
 ## \'
 print("It helps you to add a single quotation to string")

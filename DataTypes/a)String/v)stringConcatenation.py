@@ -22,8 +22,8 @@ b=125
 c="200"
 print(int(a)+int(c))
 print(int(a)+b+int(c))
-print((a)+(c))
-print((a)+str(b)+(c))
+print(a + c)
+print(a + str(b) + c)
 
 
 

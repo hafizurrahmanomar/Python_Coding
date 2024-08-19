@@ -10,7 +10,7 @@ print("Reverse String Print Now: ", Reverse_String.upper())
 
 def vowels_Cunt(input_text):
     vowels = "aeiouAEIOU"
-    return sum(1 for chr in input_text if chr in vowels)
+    return sum(1 for Chr in input_text if Chr in vowels)
 
 
 text = "Hello Python Programmer,How Are You"
