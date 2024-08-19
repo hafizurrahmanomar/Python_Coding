@@ -28,3 +28,25 @@ print("My Number List = ", myNumber)
 print("//even number find out=> List Comprehension  with range two condition")
 myNumber = [num for num in range(my_num) if num % 2 == 0 if num % 10 == 0]
 print("My Number List = ", myNumber)
+
+# Loop Through a List
+print("// Loop Through a List")
+fruit_list = ['apple', 'banana', 'cherry', 'Mango', 'Melon']
+for i in fruit_list:
+    print(i)
+
+# Loop Through the Index Numbers and item
+print("// Loop Through the Index Numbers and item")
+fruit_list = ['apple', 'banana', 'cherry', 'Mango', 'Melon']
+
+for i in range(len(fruit_list)):
+    print(i, fruit_list[i])
+
+# List Comprehension
+print("// List Comprehension")
+new_list = []
+for i in fruit_list:
+    if "M" in i:
+        new_list.append(i)
+
+print(new_list)

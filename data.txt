@@ -3,18 +3,3 @@ I'm Bangladeshi
 Python Master Class
 Django Master Class
 
-/*
-# Environments
-.env
-.venv
-env/
-venv/
-
-# Visual Studio Code #
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history
-*/
