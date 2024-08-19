@@ -24,3 +24,10 @@ fruit = {"apple"}
 fruits = fruit.add("Mango")
 print(fruit)
 
+# Union
+print("// Union")
+num_1 = {1,2,3}
+num_2 = {4,4,5,3,6}
+print(num_1 | num_2)
+# print(dir(num_1))
+
