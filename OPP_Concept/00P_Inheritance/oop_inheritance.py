@@ -15,7 +15,8 @@ class MyInfo(Base):
     def __init__(self):
         # Calling constructor of
         # Base class
-        Base.__init__(self)
+        # Base.__init__(self)
+        super().__init__()
         print("Calling private member of base class: ")
         print(self.__passwoard)
 

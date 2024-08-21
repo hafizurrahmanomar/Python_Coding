@@ -15,6 +15,7 @@ class C(A):
 obj = C()
 obj.showc()
 obj.showa()
+obj.showb()
 obj = B()
 obj.showa()
 obj.showb()

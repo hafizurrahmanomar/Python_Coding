@@ -61,6 +61,6 @@ myInfo = f"My Name is {myName}, My Father is {myFather}, My age  {myAge}"
 print("My full Info", myInfo)
 name = "Hafiz"
 age = 36
-print("// Very difficult way")
+print("// Using % operator")
 print("The name is %s and age is %d" % (name, age))
 print("The id is %d" % age)

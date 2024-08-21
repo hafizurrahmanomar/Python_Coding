@@ -1,11 +1,13 @@
+
 class A:
-    def showa(self):
+    def show(self):
         print("A class")
 
 class B(A):
-    def showb(self):
+    def show(self):
+        super().show()
         print("B class")
 
 obj = B()
-obj.showb()
-obj.showa()
+obj.show()
+

@@ -13,7 +13,7 @@ def vowels_count(input_text):
     return sum(1 for Chr in input_text if Chr in vowels)
 
 
-text = "Hello Python Programmer,How Are You"
+text = "Hello Python Programmer,How Are You?"
 total_vowel = vowels_count(text)
 print(" Original Text:", text)
 print("Total Vowels in text:", total_vowel)

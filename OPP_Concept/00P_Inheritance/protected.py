@@ -1,21 +1,22 @@
 class Test:
     id = 10
-    name = "JafriCode"
-    def __info(self):
+    name = "Hafizur Rahman"
+    def _info(self):
         print("Student Id", self.id)
         print("Student Name", self.name)
     
     def display(self):
-        self.__info()
+        self._info()
 
 class Test2(Test):
 
     def show(self):
-        self.__info()
+        self._info()
 
-# obj = Test()
-# obj.display()
-# print(obj.id)
 
-obj2 = Test2()
-obj2.show()
+# obj = Test2()
+# obj.show()
+obj = Test()
+obj._info()
+obj.display()
+
