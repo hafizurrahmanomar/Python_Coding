@@ -1,7 +1,5 @@
-<<<<<<< HEAD
+
 numpy~=1.26.3
 pywhatkit~=5.4
 matplotlib~=3.8.2
-=======
-numpy~=1.26.3
->>>>>>> origin/main
+
