@@ -1,8 +1,21 @@
 
-numpy~=1.26.3
+numpy~=2.1.0
 pywhatkit~=5.4
+<<<<<<< HEAD
 matplotlib~=3.8.2
 
 
 Django~=5.1.2
 pip~=24.2
+||||||| 6ebb6dd
+matplotlib~=3.8.2
+
+=======
+requests~=2.32.3
+beautifulsoup4~=4.12.3
+PyMySQL~=1.1.1
+Django~=5.1
+pip~=24.2
+pillow~=10.4.0
+Jinja2~=3.1.4
+>>>>>>> 1f29b8a1c2fcccf478e5f08573a2fea5935d8dc3
