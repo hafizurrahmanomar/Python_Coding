@@ -3,10 +3,13 @@
 # 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
 
 fruits=['apple','banana','cherry','durian','eagle',"nut"]
+print("// List ID Check")
+print(id(fruits))
 print("// append")
 fruits.append("Woodcocks")
 print(fruits)
-
+print("//After append List ID Check,So List Mutable")
+print(id(fruits))
 print("// change/update")
 fruits=['apple','banana','cherry','durian','eagle',"nut"]
 fruits[3]="Mango"
