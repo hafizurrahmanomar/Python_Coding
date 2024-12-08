@@ -1,0 +1,3 @@
+https://inventory.laravelpoint.com
+email: eng.rabbil@yahoo.com
+pass: abc123
