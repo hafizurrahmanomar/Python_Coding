@@ -1,7 +1,7 @@
 -- Active: 1733653127245@@127.0.0.1@3306@shop
 CREATE DATABASE shop
 
--- DROP DATABASE shop
+ -- DROP DATABASE shop
 
 
 CREATE TABLE users(
